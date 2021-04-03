@@ -75,7 +75,7 @@ def jeu ():
             if lettre in liste_reponce:
                 victoire += 1
         if victoire == len(mots):
-            print("Bravo, tu as gagnié.")
+            print("Bravo, tu as gagné.")
             break
         
         if rep_while == nbr_coups:
